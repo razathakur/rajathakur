@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: rgba(0, 0, 255, 0.349) ; */
+    align-items: center;
+    justify-content: center;
+}
+.firstcard{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+
+}
+.secondcard{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 255, 0.349);
+    float: right;
+    display: flex;
+}
+.login{
+    height: 400px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+    background-color: white;
+    
+}
+.maincard{
+    display: flex;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* border: solid black 5px; */
+}
+div.info{
+    display: flex;
+}
+#checkbox{
+    height: 20px;
+    width: 20px;
+}
+#box{
+    height: 25px;
+    width: 220px;
+    border-radius: 5px;
+}
+.f{
+    float: right;
+    display: flex;
+    margin-left: 105px;
+    margin-top: -18px;
+}
+#btn{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 92px;
+    justify-content: center;
+    background-color: rgba(227, 227, 237, 0.267);
+    border-radius: 5px;
+}
+.login2{
+    margin-left: 40px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: 0.7s;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 32px;
+
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.logo img:hover{
+    cursor:pointer;
+    
+
+}
+
